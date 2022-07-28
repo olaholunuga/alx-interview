@@ -3,9 +3,9 @@
 '''
 
 def pascal_triangle(n):
-    """
+    '''
     script to generate pascal triangle
-    """
+    '''
     triangle = []
     if type(n) is not int or n <= 0:
         return triangle
